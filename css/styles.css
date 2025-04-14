@@ -486,6 +486,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .strengths-item-text {
   font-weight: 500;
@@ -493,5 +494,4 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 8px;
 }
