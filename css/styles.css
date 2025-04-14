@@ -463,3 +463,35 @@ button {
   max-width: 496px;
   margin-bottom: 48px;
 }
+
+.strengths-wrap {
+  display: none;
+}
+
+.strengths {
+  padding: 96px 0;
+}
+
+.strengths-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.strengths-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.strengths-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 8px;
+}
