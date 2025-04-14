@@ -508,7 +508,7 @@ section {
   .strengths-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .strengths-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -620,4 +620,18 @@ section {
   text-align: center;
   color: #434455;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
 }
