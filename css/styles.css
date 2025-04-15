@@ -880,6 +880,7 @@ section {
 }
 @media screen and (min-width: 1158px) {
   .page-footer {
+    height: 312px;
     padding: 100px 0;
   }
   .page-footer .container {
