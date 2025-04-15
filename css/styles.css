@@ -709,3 +709,20 @@ section {
     flex-basis: calc((100% - 48px) / 3);
   }
 }
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 96px 0;
+}
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.footer-text-wrap {
+  margin-bottom: 72px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
