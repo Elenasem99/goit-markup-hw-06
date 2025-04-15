@@ -273,7 +273,6 @@ section {
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .mobile-menu-link {
@@ -1101,4 +1100,12 @@ section {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
 }
