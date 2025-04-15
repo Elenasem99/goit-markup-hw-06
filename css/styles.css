@@ -851,7 +851,7 @@ section {
   .container {
   }
   .page-footer {
-    padding: 96px 164px 96px 108px;
+    padding: 108px;
   }
   .footer-logo {
     justify-content: flex-start;
@@ -876,5 +876,30 @@ section {
   .footer-input {
     max-width: 264px;
     gap: 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .page-footer {
+    padding: 100px 0;
+  }
+  .page-footer .container {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .footer-form-wrap {
+    margin-left: 80px;
+  }
+  .footer-label {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  }
+  .footer-input {
+    opacity: 1;
+  }
+  .footer-input::placeholder {
+    opacity: 1;
+  }
+  .footer-text-wrap {
+    margin-right: 120px;
   }
 }
