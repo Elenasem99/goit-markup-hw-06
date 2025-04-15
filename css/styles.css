@@ -846,3 +846,35 @@ section {
   fill: #fff;
   margin-left: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+  }
+  .page-footer {
+    padding: 96px 164px 96px 108px;
+  }
+  .footer-logo {
+    justify-content: flex-start;
+  }
+
+  .footer-text-wrap {
+    max-width: 264px;
+    margin-right: 24px;
+    gap: 72px 24px;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+
+  .footer-social-wrap {
+    width: unset;
+    align-items: start;
+  }
+  .footer-subtitle {
+    text-align: left;
+  }
+  .footer-input {
+    max-width: 264px;
+    gap: 24px;
+  }
+}
