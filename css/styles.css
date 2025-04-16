@@ -853,7 +853,7 @@ section {
   .container {
   }
   .page-footer {
-    padding: 108px;
+    padding: 96px 108px;
   }
   .footer-logo {
     justify-content: flex-start;
@@ -882,7 +882,6 @@ section {
 }
 @media screen and (min-width: 1158px) {
   .page-footer {
-    height: 312px;
     padding: 100px 0;
   }
   .page-footer .container {
