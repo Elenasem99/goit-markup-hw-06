@@ -630,8 +630,17 @@ section {
     flex-wrap: wrap;
     gap: 64px 24px;
     justify-content: center;
+    margin: 0 auto;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .team-item {
+    max-width: 264px;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .team-item {
     flex-basis: calc((100% - 72px) / 4);
