@@ -295,11 +295,14 @@ section {
   margin-bottom: 40px;
 }
 
+.mobile-adress {
+  margin-bottom: 48px;
+}
+
 .mobile-adress-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 
 .mobile-adress-link {
