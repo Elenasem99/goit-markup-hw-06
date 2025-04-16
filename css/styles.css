@@ -889,6 +889,9 @@ section {
     margin: 0 auto;
   }
 
+  .footer-form {
+    gap: 24px;
+  }
   .footer-form-wrap {
     margin-left: 80px;
   }
@@ -903,6 +906,10 @@ section {
   }
   .footer-text-wrap {
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+  .footer-social-wrap {
+    margin-bottom: 0;
   }
 }
 
